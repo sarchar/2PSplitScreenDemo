@@ -26,6 +26,10 @@ games, or anything you come up with:)
 * Install Godot v3.3
 * Clone this repo and import the project.  Run the main screen from within the editor.
 
+## Demo
+
+There's a demo available to try at [https://sarchar.itch.io/two-player-split-screen-demo](https://sarchar.itch.io/two-player-split-screen-demo).
+
 ## Help
 
 If you find any issues or bugs or think the demo can be improved, send me an
