@@ -1,9 +1,15 @@
-[gd_resource type="TileSet" load_steps=3 format=2]
+[gd_resource type="TileSet" load_steps=5 format=2]
 
 [ext_resource path="res://gfx/Overworld.png" type="Texture" id=1]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 1.57916, 16.6963, 3.48581, 10.9763, 12.1219, 8.28455, 15.8231, 4.69553, 19.1877, 8.28455, 29.0575, 10.8641, 29.8426, 27.1269, 24.3469, 30.6037, 16.3838, 27.5755, 8.7572, 30.7159, 2.25208, 26.4539 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+points = PoolVector2Array( 0.0324402, 22.2688, 31.3241, 22.8295, 31.3241, 47.0554, 1.04184, 47.6161 )
+
+[sub_resource type="ConvexPolygonShape2D" id=3]
+points = PoolVector2Array( 0.0617599, 8.30701, 32, 8.41916, 32, 29.2803, 0, 29.2803 )
 
 [resource]
 0/name = "Lily pads"
@@ -305,3 +311,45 @@ points = PoolVector2Array( 1.57916, 16.6963, 3.48581, 10.9763, 12.1219, 8.28455,
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 19/z_index = 0
+20/name = "Small hut"
+20/texture = ExtResource( 1 )
+20/tex_offset = Vector2( 0, -24 )
+20/modulate = Color( 1, 1, 1, 1 )
+20/region = Rect2( 208, 80, 32, 48 )
+20/tile_mode = 0
+20/occluder_offset = Vector2( 0, 0 )
+20/navigation_offset = Vector2( 0, 0 )
+20/shape_offset = Vector2( 0, -24 )
+20/shape_transform = Transform2D( 1, 0, 0, 1, 0, -24 )
+20/shape = SubResource( 2 )
+20/shape_one_way = false
+20/shape_one_way_margin = 1.0
+20/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, -24 )
+} ]
+20/z_index = 0
+21/name = "Tree"
+21/texture = ExtResource( 1 )
+21/tex_offset = Vector2( 0, -8 )
+21/modulate = Color( 1, 1, 1, 1 )
+21/region = Rect2( 80, 256, 32, 32 )
+21/tile_mode = 0
+21/occluder_offset = Vector2( 0, 0 )
+21/navigation_offset = Vector2( 0, 0 )
+21/shape_offset = Vector2( 0, -8 )
+21/shape_transform = Transform2D( 1, 0, 0, 1, 0, -8 )
+21/shape = SubResource( 3 )
+21/shape_one_way = false
+21/shape_one_way_margin = 1.0
+21/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 3 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, -8 )
+} ]
+21/z_index = 0

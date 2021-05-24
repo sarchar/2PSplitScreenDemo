@@ -41,6 +41,8 @@ camera_smooth_split_distance = 100
 [node name="Camera2D" type="Camera2D" parent="Viewport"]
 current = true
 zoom = Vector2( 0.5, 0.5 )
+limit_left = -1000000
+limit_top = -1000000
 
 [node name="Viewport2" type="Viewport" parent="."]
 size = Vector2( 1920, 1080 )

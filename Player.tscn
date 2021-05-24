@@ -101,8 +101,8 @@ max_space = Vector2( 1, 1.1 )
 blend_mode = 1
 
 [sub_resource type="CapsuleShape2D" id=10]
-radius = 5.69815
-height = 1.69391
+radius = 4.73309
+height = 0.0
 
 [node name="Player" type="KinematicBody2D"]
 position = Vector2( 218.814, 193.127 )
@@ -112,10 +112,11 @@ walk_velocity = 70.0
 player_id = 1
 
 [node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -0.165543, -5.6615 )
 texture = ExtResource( 1 )
 hframes = 17
 vframes = 8
-frame = 36
+frame = 34
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/walk_down = SubResource( 1 )
@@ -130,5 +131,5 @@ active = true
 parameters/blend_position = Vector2( -0.0236406, -0.776824 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -0.132416, 3.64191 )
+position = Vector2( -0.231751, 0.463504 )
 shape = SubResource( 10 )
