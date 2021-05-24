@@ -22,7 +22,6 @@ uniform float camera_smooth_split_distance;
 uniform float smoothstep_amplitude : hint_range(0, 1) = 0.0125;
 
 // the amount to shift the player's UV by
-// TODO: the size of the circle to keep the player on
 uniform float player_uv_shift : hint_range(0, 1) = 0.15;
 
 // compute the distance point `test` is to the line defined by points (pt1, pt2)
